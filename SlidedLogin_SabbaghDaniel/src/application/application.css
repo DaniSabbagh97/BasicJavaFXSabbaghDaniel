@@ -1,0 +1,17 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.pn1{
+	-fx-background-image: url('11.jpg');
+	-fx-background-size: cover, auto;
+}
+.pn2{
+	-fx-background-image: url('12.jpg');
+		-fx-background-size: cover, auto;
+}
+.pn3{
+	-fx-background-image: url('13.jpg');
+		-fx-background-size: cover, auto;
+}
+.pn4{
+	-fx-background-image: url('14.jpg');
+		-fx-background-size: cover, auto;
+}
