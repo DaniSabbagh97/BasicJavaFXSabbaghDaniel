@@ -7,7 +7,7 @@
 <?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
+<?import javafx. scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" styleClass="rootPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" styleClass="rootPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane alignment="CENTER" prefHeight="500.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <columnConstraints>
@@ -35,7 +35,7 @@
                <children>
                   <ImageView fitHeight="150.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@chili.png" />
+                        <Image url="@bigote.png" />
                      </image>
                      <viewport>
                         <Rectangle2D />
@@ -44,31 +44,26 @@
                         <Insets />
                      </VBox.margin>
                   </ImageView>
-                  <Label alignment="CENTER" contentDisplay="TOP" text="Sign in" textAlignment="JUSTIFY" textFill="#004ecd">
+                  <Label alignment="CENTER" contentDisplay="TOP" text="Logueate" textAlignment="JUSTIFY" textFill="#004ecd">
                      <font>
                         <Font name="Microsoft JhengHei UI Light" size="28.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="247.0" text="Hello there , start your app to manage your store" textAlignment="CENTER" textFill="#b2b2b2" wrapText="true">
+                  <Label alignment="CENTER" prefHeight="30.0" prefWidth="247.0" text="Te estamos mirando" textAlignment="CENTER" textFill="#b2b2b2" wrapText="true">
                      <font>
                         <Font size="11.0" />
                      </font>
                   </Label>
-                  <JFXTextField focusColor="#d10606" labelFloat="true" promptText="Username" />
-                  <JFXPasswordField focusColor="#fa0707" labelFloat="true" promptText="Password" />
-                  <JFXButton alignment="CENTER" buttonType="RAISED" prefHeight="26.0" prefWidth="900.0" ripplerFill="WHITE" style="-fx-background-color: #fb0000; -fx-background-radius: 5px;" text="Get started" textFill="WHITE">
+                  <JFXTextField focusColor="#d10606" labelFloat="true" promptText="Nombre de Usuario Pendejo" />
+                  <JFXPasswordField focusColor="#fa0707" labelFloat="true" promptText="Tu contraseña para jaquiarte" />
+                  <JFXButton alignment="CENTER" buttonType="RAISED" prefHeight="26.0" prefWidth="900.0" ripplerFill="WHITE" style="-fx-background-color: #fb0000; -fx-background-radius: 5px;" text="Pulsa aqui wey" textFill="WHITE">
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </JFXButton>
                   <HBox>
                      <children>
-                        <Label alignment="CENTER" prefHeight="31.0" prefWidth="110.0" text="Forgot password?" textAlignment="CENTER" textFill="#b2b2b2" wrapText="true">
-                           <font>
-                              <Font size="11.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="CENTER" prefHeight="31.0" prefWidth="135.0" text="Create a new account " textAlignment="CENTER" textFill="#b2b2b2" wrapText="true">
+                        <Label alignment="CENTER" prefHeight="16.0" prefWidth="228.0" text="Si se te olvida la contraseña te jodes" textAlignment="CENTER" textFill="#b2b2b2" wrapText="true">
                            <font>
                               <Font size="11.0" />
                            </font>
