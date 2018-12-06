@@ -27,7 +27,7 @@ public class Main extends Application {
             Scene scene=new Scene(pane);
         scene.getStylesheets().addAll(Main.class.getResource("style.css").toExternalForm());
 
-        stage.setTitle("signin");
+        stage.setTitle("Logueateeeeeeeee");
         stage.setScene(scene);
         stage.show();
     } catch (IOException e) {
