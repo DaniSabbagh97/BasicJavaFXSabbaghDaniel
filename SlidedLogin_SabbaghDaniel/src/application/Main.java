@@ -19,8 +19,7 @@ public class Main extends Application {
 			Scene scene = new Scene(pane);
 		
 		primaryStage.setScene(scene);
-		//primaryStage.setResizable(true);
-		primaryStage.initStyle(StageStyle.UNDECORATED);//QUITAR BORDER
+		primaryStage.initStyle(StageStyle.UNDECORATED);
 		primaryStage.show();
 	}
 	

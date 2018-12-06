@@ -18,21 +18,10 @@ public class Control {
 
 	@FXML
 	private Pane pn4;
-	
-//	@FXML
-//	private URL location;
-//	
-//	@FXML
-//	private ResourceBundle resources;
-	
+
 
 	public void initialize() {
-/*
-		pn1.setStyle("-fx-background-image: url('aplication/1.jpg')");
-		pn2.setStyle("-fx-background-image: url('aplication/2.jpg')");
-		pn3.setStyle("-fx-background-image: url('aplication/3.jpg')");
-		pn4.setStyle("-fx-background-image: url('aplication/4.jpg')");
-*/
+
 		backgroundAnimation();
 
 	}
