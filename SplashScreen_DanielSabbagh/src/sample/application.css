@@ -1,0 +1,13 @@
+.logo{
+-fx-text-fill: #7E0CE8;
+-fx-background-radius: 50.0;
+-fx-background-color: #F7FBFF;
+-fx-font-family: "Dokdo";
+-fx-font-size: 50.0;
+}
+
+.mytitle{
+    -fx-font-family: "Dokdo";
+    -fx-font-size: 50.0;
+    
+}

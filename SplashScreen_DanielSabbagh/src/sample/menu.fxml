@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #63E5E8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="110.0" style="-fx-background-color: #00a75f;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="logoLabel" alignment="CENTER" prefHeight="88.0" prefWidth="674.0" styleClass="logo" text="GIMNASIOS REBIKA!!" textFill="#00a75f" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+                     <font>
+                        <Font name="Microsoft JhengHei UI Light" size="39.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <Label text="COME AND TRY!!" textFill="#b934c2d4" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </center>
+         <bottom>
+            <ImageView fitHeight="403.0" fitWidth="830.0" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@1.jpg" />
+               </image>
+            </ImageView>
+         </bottom>
+         <right>
+            <ImageView fitHeight="227.0" fitWidth="479.0" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@2.jpg" />
+               </image>
+            </ImageView>
+         </right>
+         <left>
+            <ImageView fitHeight="254.0" fitWidth="440.0" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@3.jpg" />
+               </image>
+            </ImageView>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
